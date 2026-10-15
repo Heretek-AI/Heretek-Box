@@ -1,0 +1,36 @@
+# Environment & Secrets
+.env
+.env.local
+*.pem
+*.key
+*.cert
+secrets/
+
+# Build & Dependency Artifacts
+node_modules/
+dist/
+build/
+target/
+.next/
+out/
+*.o
+*.a
+*.so
+
+# Nix
+result
+result-*
+.direnv/
+
+# Persist & Runtime State
+workspaces/
+data/
+*.sock
+*.log
+.quarantine/
+
+# IDE & OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
